@@ -6,7 +6,7 @@
     <body>
         <div id="loginbox">
             <input id="username"/>
-            <input type="button" value="submit">
+            <input id="submit_user" type="button" value="submit">
         </div>
         <main>
             <div class="left-sidebar">
@@ -27,6 +27,7 @@
         init({
             login_window: document.querySelector('#loginbox'),
             login_input: document.querySelector('#username'),
+            login_submit: document.querySelector('#submit_user'),
             msginput: document.querySelector('#msg-input'),
             chat_view: document.querySelector('#msgs'),
             rooms: true,
