@@ -1,11 +1,30 @@
 <html>
 <body>
 
-<div class='header'><h1>Home</h1></div>
-<div class='search-view'>
-<input class='search-key' type="text"/>
-<ul class='employee-list'></ul>
-</div>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css" >
+        <script src="http://moniker.floretos.com/js/client/web/init.js"></script>
+    </head>
+    <body>
+        <div id="loginbox">
+            <input id="username"/>
+            <button id="submit_user">submit</button>
+        </div>
+        <main>
+            <div class="left-sidebar">
+            </div>
+            <div id="msgs" class="main-content">
+                <div id="room-lobby" class="room on">
+                    <div id="msg" class="msg">
+                        <div class="users"></div>
+                    </div>
+                </div>
+                <div class="input">
+                    <input id="msg-input"/>
+                </div>
+            </div>
+        </main>
 
 <script src="lib/jquery-1.8.2.min.js"></script>
 <script src="js/storage/memory-store.js"></script>
